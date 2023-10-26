@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+.all{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #faf9fa;
+}
+.container{
+    max-width: 1500px;
+    width: 90%;
+}
+
+.cartaPersonaje {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cartaPersonaje .principal {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.cartaPersonaje .principal .imagenPrincipal {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+    transition: all 350ms ease;
+    transform: scale(1);
+}
+
+.cartaPersonaje .principal .imagenPrincipal img {
+    width: 350px;
+    height: auto;
+    transition: all 350ms ease;
+    transform: scale(1);
+}
+
+.cartaPersonaje .principal:hover .imagenPrincipal {
+    border-radius: 50%;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-box-shadow: 20px 26px 46px -6px rgba(99, 99, 99, 1);
+    -moz-box-shadow: 20px 26px 46px -6px rgba(99, 99, 99, 1);
+    box-shadow: 20px 26px 46px -6px rgba(99, 99, 99, 1);
+    transform: scale(0.9);
+}
+
+.cartaPersonaje .principal .basic-info {
+    max-width: 600px;
+}
+
+.cartaPersonaje .principal .basic-info h2 {
+    font-size: 60px;
+    color: #3a395e;
+}
+
+.cartaPersonaje .principal .basic-info p {
+    font-size: 22px;
+    color: #6e6d8f;
+    font-family: 'Basier Circle', sans-serif;
+}
+
+.cartaPersonaje .otrosDatos {}
+
+.cartaPersonaje .otrosDatos .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cartaPersonaje .otrosDatos h3 {
+    font-size: 50px;
+    color: #3a395e;
+    margin: 0;
+}
+
+.cartaPersonaje .otrosDatos .shape5 {
+    width: 200px;
+    height: 6px;
+    background-color: #3ca2fc;
+}
+
+.cartaPersonaje .otrosDatos .datos {
+    margin: 50px 100px;
+}
+
+.cartaPersonaje .otrosDatos .datos p {
+    transform: scale(0.98);
+    font-size: 20px;
+    opacity: 0.6;
+    transition: all ease 350ms;
+}
+
+.cartaPersonaje .otrosDatos .datos p:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.cartaPersonaje .col1 {
+    background-color: #f49e37;
+}
+
+.cartaPersonaje .col2 {
+    background-color: #3ca2fc;
+}
+
+.cartaPersonaje .col3 {
+    background-color: #f4e869;
+}
+
+.cartaPersonaje .col4 {
+    background-color: #64ccc5;
+}
+
+.cartaPersonaje .col5 {
+    background-color: #e55604;
+}
+
+.atras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* boton atras */
+.goBack {
+    height: 2.8em;
+    width: 9em;
+    background: transparent;
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+    border: 2px solid #016DD9;
+    outline: none;
+    color: #016DD9;
+    font-size: 17px;
+}
+
+.goBack:hover {
+    background: #016DD9;
+    color: #ffffff;
+    animation: squeeze3124 0.9s both;
+}
+
+@keyframes squeeze3124 {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}

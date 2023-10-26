@@ -1,0 +1,26 @@
+<div class="all">
+    <div class="container">
+        <section class="destacados">
+            <h2>Destacados</h2>
+            <div class="shape2"></div>
+            <ul class="cards">
+                <li class="card" *ngFor="let personaje of personajes">
+                    <a href="" routerLink="/detalles/{{personaje.id}}">
+                        <div class="visual" [class]="randomColor()">
+                            <img src="./assets/personajes/{{personaje.fotoPrincipal}}" alt="" />
+                        </div>
+                        <div class="info">
+                            <h3>{{ personaje.nombre }}</h3>
+                            <div class="parrafo">
+                                <p>{{ personaje.curiosidades }}</p>
+                                <div class="shape3">
+                                    <p>></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>

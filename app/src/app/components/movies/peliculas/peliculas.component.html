@@ -1,0 +1,15 @@
+<div class="all">
+    <div class="container">
+        <section class="peliculas2">
+            <div class="movies">
+                <ul class="cards">
+                    <li class="card" *ngFor="let pelicula of peliculas">
+                        <img src="./assets/peliculas/{{pelicula.fotoPrincipal}}" alt="">
+                        <h3>{{pelicula.nombre}}</h3>
+                        <a href="" routerLink="/detallesPelicula/{{pelicula.id}}">Ver</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</div>

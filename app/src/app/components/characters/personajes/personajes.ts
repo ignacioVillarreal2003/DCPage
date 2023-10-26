@@ -1,0 +1,290 @@
+import { Personaje } from './personaje';
+
+export const Personajes: Personaje[] = [
+    {
+        id: 1,
+        nombre: 'Beast',
+        descripcion: 'Bestia es un mutante del universo de Marvel Comics. Su nombre real es Hank McCoy. Es conocido por su apariencia azul peluda, agilidad sobrehumana y fuerza física. Además, es un científico brillante y miembro destacado de los X-Men.',
+        origen: 'Origen desconocido.',
+        poderesHabilidades: 'Agilidad sobrehumana, fuerza física, científico brillante.',
+        debilidades: 'Sus habilidades no incluyen poder volar o tener súper resistencia física extrema.',
+        estadisticas: 'Altura: 180 cm, Peso: 181 kg, Edad: 30 años',
+        curiosidades: 'Bestia es conocido por su intelecto y su participación en la política y la diplomacia en adición a sus habilidades físicas.',
+        fotoPrincipal: 'beast.png'
+    },
+    {
+        id: 2,
+        nombre: 'Capitán América',
+        descripcion: 'El Capitán América es Steve Rogers, un superhéroe de Marvel Comics. Es un símbolo de patriotismo y valentía. A través de un suero especial, adquirió fuerza sobrehumana, agilidad y resistencia. Es un líder nato y ha sido un símbolo clave en la lucha por la justicia y la libertad.',
+        origen: 'Steve Rogers fue un joven débil que participó en un experimento para convertirse en el soldado perfecto.',
+        poderesHabilidades: 'Fuerza sobrehumana, agilidad, resistencia, maestría en combate cuerpo a cuerpo, escudo indestructible.',
+        debilidades: 'Puede ser herido como cualquier ser humano y su escudo, aunque resistente, no es completamente indestructible.',
+        estadisticas: 'Altura: 188 cm, Peso: 108 kg, Edad: 100+ años (biológicamente más joven debido al suero)',
+        curiosidades: 'El Capitán América es uno de los miembros fundadores de los Vengadores y ha liderado al equipo en varias ocasiones.',
+        fotoPrincipal: 'captain-america.png'
+    },
+    {
+        id: 3,
+        nombre: 'Cyclops',
+        descripcion: 'Cíclope es el alias de Scott Summers, un mutante en el universo de Marvel Comics y líder de los X-Men. Posee la capacidad de generar potentes rayos de energía óptica desde sus ojos, controlados por unas gafas o visor especial. Es conocido por su dedicación y liderazgo.',
+        origen: 'Scott Summers descubrió sus poderes de manera temprana, manifestando rayos de energía desde sus ojos en su adolescencia.',
+        poderesHabilidades: 'Generación de rayos de energía óptica, habilidades tácticas y de liderazgo.',
+        debilidades: 'Depende de su visor para controlar sus rayos de energía, incapacidad para controlar completamente su poder.',
+        estadisticas: 'Altura: 191 cm, Peso: 88 kg, Edad: 35 años',
+        curiosidades: 'Cíclope es conocido por su relación con Jean Grey, otro miembro de los X-Men.',
+        fotoPrincipal: 'cyclops.png'
+    },
+    {
+        id: 4,
+        nombre: 'Deadpool',
+        descripcion: 'Deadpool, también conocido como Wade Wilson, es un antihéroe de Marvel Comics. Es famoso por su humor ácido, habilidades de regeneración acelerada y romper la cuarta pared. Es un mercenario con un pasado oscuro que lucha contra villanos mientras hace chistes y bromas.',
+        origen: 'Wade Wilson fue sometido a un experimento para curar su cáncer, lo que resultó en sus habilidades de regeneración y su transformación en Deadpool.',
+        poderesHabilidades: 'Regeneración acelerada, habilidades de combate avanzadas, uso de armas de fuego y espadas.',
+        debilidades: 'Aunque se regenera rápidamente, aún puede sentir dolor y puede ser herido de gravedad.',
+        estadisticas: 'Altura: 188 cm, Peso: 95 kg, Edad: Desconocida',
+        curiosidades: 'Deadpool es conocido por su sentido del humor único y su tendencia a romper la cuarta pared, hablando directamente a los lectores o espectadores.',
+        fotoPrincipal: 'deadpool.png'
+    },
+    {
+        id: 5,
+        nombre: 'Green Arrow',
+        descripcion: 'Flecha Verde es el alter ego de Oliver Queen, un arquero altamente habilidoso en el universo de DC Comics. Es un justiciero que utiliza un arco y flechas trucadas para combatir el crimen y la injusticia en su ciudad, conocido por su ingenio y habilidades tácticas.',
+        origen: 'Oliver Queen, un millonario playboy, adquirió sus habilidades a través de entrenamiento y práctica extensa con el arco y flechas.',
+        poderesHabilidades: 'Maestría en arquería, habilidades de combate cuerpo a cuerpo, inteligencia aguda.',
+        debilidades: 'Es humano y vulnerable a heridas graves.',
+        estadisticas: 'Altura: 188 cm, Peso: 91 kg, Edad: 32 años',
+        curiosidades: 'Green Arrow es conocido por su sentido de la justicia y su participación en la Liga de la Justicia, un grupo de superhéroes en el universo de DC.',
+        fotoPrincipal: 'green-arrow.png'
+    },
+    {
+        id: 6,
+        nombre: 'Atom',
+        descripcion: 'Atom, también conocido como Ray Palmer, es un superhéroe que posee la habilidad de cambiar su tamaño, desde subatómico hasta gigante. Es un miembro clave de la Liga de la Justicia y ha demostrado ser un genio científico en el universo de DC Comics.',
+        origen: 'Ray Palmer descubrió una tecnología que le permite cambiar de tamaño utilizando un cinturón especial y se convirtió en Atom.',
+        poderesHabilidades: 'Habilidad para cambiar de tamaño, genio científico.',
+        debilidades: 'Vulnerable cuando está a tamaño normal y no puede cambiar de tamaño si su cinturón es desactivado.',
+        estadisticas: 'Altura: Variable (debido a su habilidad de cambio de tamaño), Peso: Variable, Edad: 35 años',
+        curiosidades: 'Ray Palmer ha tenido varios aprendices y su habilidad de cambiar de tamaño ha sido fundamental en muchas misiones de la Liga de la Justicia.',
+        fotoPrincipal: 'atom.png'
+    },
+    {
+        id: 7,
+        nombre: 'Catwoman',
+        descripcion: 'Catwoman, también conocida como Selina Kyle, es una ladrona y antiheroína en el universo de DC Comics. Es conocida por su habilidad acrobática, destreza en combate cuerpo a cuerpo y su relación con Batman.',
+        origen: 'Selina Kyle adoptó la identidad de Catwoman para lidiar con su difícil infancia y situación económica.',
+        poderesHabilidades: 'Agilidad sobresaliente, destreza en combate cuerpo a cuerpo, habilidades de ladrón maestro.',
+        debilidades: 'Humana y puede ser vulnerable a lesiones graves.',
+        estadisticas: 'Altura: 170 cm, Peso: 61 kg, Edad: 32 años',
+        curiosidades: 'Catwoman ha tenido varias alianzas y romances con personajes notables en el universo de DC, incluyendo a Batman y Poison Ivy.',
+        fotoPrincipal: 'catwoman.png'
+    },
+    {
+        id: 8,
+        nombre: 'Deadstroke',
+        descripcion: 'Deadstroke, también conocido como Slade Wilson, es un mercenario y asesino altamente habilidoso en el universo de DC Comics. Es conocido por su destreza en combate y habilidades tácticas excepcionales.',
+        origen: 'Slade Wilson adquirió sus habilidades a través de experimentos militares y entrenamiento especializado.',
+        poderesHabilidades: 'Regeneración rápida, fuerza sobresaliente, habilidades de combate cuerpo a cuerpo, estratega experto.',
+        debilidades: 'A pesar de su regeneración, aún es vulnerable a heridas graves.',
+        estadisticas: 'Altura: 191 cm, Peso: 102 kg, Edad: 40 años',
+        curiosidades: 'Deadstroke ha sido un villano formidable para varios superhéroes en el universo de DC, incluyendo a los Teen Titans y a Green Arrow.',
+        fotoPrincipal: 'deadstroke.png'
+    },
+    {
+        id: 9,
+        nombre: 'Green Lantern',
+        descripcion: 'Green Lantern, también conocido como Hal Jordan, es un miembro de la Fuerza Green Lantern, un grupo de guardianes intergalácticos en el universo de DC Comics. Posee un anillo de poder que le otorga poderes increíbles.',
+        origen: 'Hal Jordan fue elegido por un anillo de poder, convirtiéndose en el Green Lantern de la Tierra.',
+        poderesHabilidades: 'Anillo de poder que crea manifestaciones de energía, vuelo, habilidades tácticas.',
+        debilidades: 'El anillo de poder tiene una reserva de energía limitada y es vulnerable a la falta de voluntad.',
+        estadisticas: 'Altura: 186 cm, Peso: 92 kg, Edad: 29 años',
+        curiosidades: 'Green Lantern es parte de una fuerza intergaláctica encargada de mantener la paz y la justicia en el universo, con diferentes Lanterns en diversos sectores.',
+        fotoPrincipal: 'green-lantern.png'
+    },
+    {
+        id: 10,
+        nombre: 'Groot',
+        descripcion: 'Groot es un ser extraterrestre en el universo de Marvel Comics. Es un árbol parlante y miembro de los Guardianes de la Galaxia. Aunque sus palabras son limitadas a "Yo soy Groot", su lealtad y valentía son inquebrantables.',
+        origen: 'Groot es parte de una especie arbórea extraterrestre.',
+        poderesHabilidades: 'Regeneración, crecimiento acelerado, fuerza sobrehumana.',
+        debilidades: 'Es vulnerable a daños físicos graves y fuego intenso.',
+        estadisticas: 'Altura: Variable (depende del crecimiento), Peso: Variable, Edad: Indeterminada',
+        curiosidades: 'Groot ha sacrificado su vida en varias ocasiones por sus amigos y ha sido reconstruido gracias a su capacidad de regeneración.',
+        fotoPrincipal: 'groot.png'
+    },
+    {
+        id: 11,
+        nombre: 'Harley Quinn',
+        descripcion: 'Harley Quinn, cuyo nombre real es Harleen Quinzel, es una supervillana y a veces antiheroína en el universo de DC Comics. Es conocida por su relación con el Joker y su personalidad excéntrica y caótica.',
+        origen: 'Harleen Quinzel era una psiquiatra que se convirtió en Harley Quinn después de unirse al Joker en Arkham Asylum.',
+        poderesHabilidades: 'Inteligencia, agilidad, destreza en combate cuerpo a cuerpo.',
+        debilidades: 'Vulnerable al daño físico y a menudo afectada por su relación con el Joker.',
+        estadisticas: 'Altura: 170 cm, Peso: 63 kg, Edad: 29 años',
+        curiosidades: 'Harley Quinn es un personaje popular en los cómics y ha aparecido en varias adaptaciones a medios como televisión, cine y videojuegos.',
+        fotoPrincipal: 'harley-quinn.png'
+    },
+    {
+        id: 12,
+        nombre: 'Hawkgirl',
+        descripcion: 'Hawkgirl es el nombre de varios superhéroes en el universo de DC Comics, todos con habilidades relacionadas con alas y una misteriosa conexión con antiguas reencarnaciones.',
+        origen: 'Diferentes encarnaciones de Hawkgirl han recibido sus poderes de dioses y fuerzas místicas.',
+        poderesHabilidades: 'Vuelo, fuerza sobrehumana, longevidad, habilidades de combate cuerpo a cuerpo.',
+        debilidades: 'Vulnerable a heridas graves y daños físicos significativos.',
+        estadisticas: 'Altura: Variable, Peso: Variable, Edad: Variable',
+        curiosidades: 'Hawkgirl es un miembro importante de la Liga de la Justicia y ha sido parte de varias encarnaciones del equipo.',
+        fotoPrincipal: 'hawkgirl.png'
+    },
+    {
+        id: 13,
+        nombre: 'Hawkman',
+        descripcion: 'Hawkman es el nombre de varios superhéroes en el universo de DC Comics, todos con habilidades relacionadas con alas y una misteriosa conexión con antiguas reencarnaciones.',
+        origen: 'Diferentes encarnaciones de Hawkman han recibido sus poderes de dioses y fuerzas místicas.',
+        poderesHabilidades: 'Vuelo, fuerza sobrehumana, longevidad, habilidades de combate cuerpo a cuerpo.',
+        debilidades: 'Vulnerable a heridas graves y daños físicos significativos.',
+        estadisticas: 'Altura: Variable, Peso: Variable, Edad: Variable',
+        curiosidades: 'Hawkman es un miembro importante de la Liga de la Justicia y ha sido parte de varias encarnaciones del equipo.',
+        fotoPrincipal: 'hawkman.png'
+    },
+    {
+        id: 14,
+        nombre: 'Iron-Man',
+        descripcion: 'Iron-Man, cuyo nombre real es Tony Stark, es un superhéroe tecnológicamente avanzado en el universo de Marvel Comics. Es conocido por su armadura y su genio inventor, siendo uno de los fundadores de los Vengadores.',
+        origen: 'Tony Stark creó la armadura Iron-Man para escapar del cautiverio y la armadura evolucionó para convertirse en una herramienta para combatir el crimen.',
+        poderesHabilidades: 'Armored exoesqueleto que otorga fuerza sobrehumana, vuelo, armas avanzadas.',
+        debilidades: 'Dependiente de la armadura, agotamiento de energía, problemas de salud relacionados con su corazón.',
+        estadisticas: 'Altura: 185 cm, Peso: 102 kg, Edad: 48 años',
+        curiosidades: 'Iron-Man es un multimillonario industrial y filántropo, y su armadura ha pasado por varias actualizaciones y mejoras a lo largo de los años.',
+        fotoPrincipal: 'iron-man.png'
+    },
+    {
+        id: 15,
+        nombre: 'Logan',
+        descripcion: 'Logan, también conocido como Wolverine, es un mutante y miembro de los X-Men en el universo de Marvel Comics. Es conocido por sus habilidades regenerativas, garras retráctiles y estilo de combate feroz.',
+        origen: 'Logan es un mutante que ha pasado por experimentos que le otorgaron sus habilidades sobrehumanas.',
+        poderesHabilidades: 'Regeneración acelerada, esqueleto y garras de adamantium, sentidos agudizados, habilidades de combate cuerpo a cuerpo.',
+        debilidades: 'A pesar de su regeneración, aún es vulnerable a heridas graves y daños extremos.',
+        estadisticas: 'Altura: 160 cm, Peso: 135 kg, Edad: 137 años',
+        curiosidades: 'Logan es conocido por su actitud dura y pasado traumático, y ha sido una parte crucial de los X-Men y otras historias de Marvel.',
+        fotoPrincipal: 'logan.png'
+    },
+    {
+        id: 16,
+        nombre: 'Magneto',
+        descripcion: 'Magneto, cuyo nombre real es Erik Lehnsher, es un mutante y villano en el universo de Marvel Comics. Es conocido por sus poderes magnéticos y su papel como líder de la Hermandad de Mutantes.',
+        origen: 'Erik Lehnsher descubrió sus poderes magnéticos desde temprana edad y se convirtió en Magneto para luchar por la supremacía mutante.',
+        poderesHabilidades: 'Manipulación magnética, maestría en combate cuerpo a cuerpo, genio intelectual.',
+        debilidades: 'A pesar de su poder, aún es vulnerable a heridas graves y ataques sorpresa.',
+        estadisticas: 'Altura: 188 cm, Peso: 86 kg, Edad: 62 años',
+        curiosidades: 'Magneto ha sido un antagonista clave en las historias de los X-Men y ha tenido una evolución compleja en su relación con los mutantes y la humanidad.',
+        fotoPrincipal: 'magneto.png'
+    },
+    {
+        id: 17,
+        nombre: 'Doctor Destino',
+        descripcion: 'Doctor Destino, cuyo nombre real es Kent Nelson, es un poderoso hechicero y villano en el universo de DC Comics. Es conocido por su conocimiento en magia y sus intentos de dominar el mundo.',
+        origen: 'Kent Nelson descubrió su destino como Doctor Destino después de encontrar un artefacto mágico en una expedición arqueológica.',
+        poderesHabilidades: 'Magia, telepatía, proyección astral, conocimiento de hechizos.',
+        debilidades: 'Vulnerable a ataques mágicos más poderosos y a menudo afectado por su propia arrogancia.',
+        estadisticas: 'Altura: 185 cm, Peso: 82 kg, Edad: Desconocida',
+        curiosidades: 'Doctor Destino es uno de los hechiceros más poderosos en el universo de DC y ha sido un desafiante formidable para varios superhéroes.',
+        fotoPrincipal: 'doctor-destino.png'
+    },
+    {
+        id: 18,
+        nombre: 'Pingüino',
+        descripcion: 'Pingüino, cuyo nombre real es Oswald Cobblepot, es un supervillano en el universo de DC Comics. Es conocido por su apariencia y comportamiento similares a un pingüino, así como por su destreza en la planificación y el crimen.',
+        origen: 'Oswald Cobblepot nació con una apariencia física única que lo llevó a asumir el alias del Pingüino.',
+        poderesHabilidades: 'Inteligencia estratégica, maestría en planificación, habilidades con paraguas modificados.',
+        debilidades: 'Vulnerable físicamente y a menudo subestimado por su apariencia.',
+        estadisticas: 'Altura: 150 cm, Peso: 91 kg, Edad: 49 años',
+        curiosidades: 'El Pingüino es un enemigo recurrente de Batman y ha sido presentado en diversas adaptaciones de medios a lo largo de los años.',
+        fotoPrincipal: 'penguin.png'
+    },
+    {
+        id: 19,
+        nombre: 'Profesor X',
+        descripcion: 'Profesor X, cuyo nombre real es Charles Xavier, es un mutante y fundador de los X-Men en el universo de Marvel Comics. Es conocido por su liderazgo y su habilidad para leer y controlar mentes.',
+        origen: 'Charles Xavier descubrió sus poderes mutantes desde temprana edad y fundó la Escuela para Jóvenes Talentosos para ayudar a otros mutantes.',
+        poderesHabilidades: 'Telepatía, genio intelectual, liderazgo, conocimiento en genética y mutaciones.',
+        debilidades: 'Físicamente vulnerable y afectado por el uso excesivo de sus poderes.',
+        estadisticas: 'Altura: 183 cm, Peso: 86 kg, Edad: 67 años',
+        curiosidades: 'Profesor X ha sido fundamental en la formación de los X-Men y ha luchado por la coexistencia pacífica entre mutantes y humanos.',
+        fotoPrincipal: 'professor-x.png'
+    },
+    {
+        id: 20,
+        nombre: 'Spider-Man',
+        descripcion: 'Spider-Man, cuyo nombre real es Peter Parker, es un superhéroe con habilidades arácnidas en el universo de Marvel Comics. Es conocido por su agilidad, fuerza y su característico sentido arácnido.',
+        origen: 'Peter Parker adquirió sus habilidades arácnidas después de ser mordido por una araña radiactiva en un experimento científico.',
+        poderesHabilidades: 'Agilidad sobresaliente, fuerza sobrehumana, sentido arácnido, habilidades de trepa y lanzamiento de telarañas.',
+        debilidades: 'A pesar de sus habilidades, aún es vulnerable a heridas graves y ataques sorpresa.',
+        estadisticas: 'Altura: 178 cm, Peso: 76 kg, Edad: 23 años',
+        curiosidades: 'Spider-Man es uno de los superhéroes más populares de Marvel y ha sido destacado en cómics, películas, series de televisión y videojuegos.',
+        fotoPrincipal: 'spiderman.png'
+    },
+    {
+        id: 21,
+        nombre: 'Storm',
+        descripcion: 'Storm, cuyo nombre real es Ororo Munroe, es una mutante y miembro de los X-Men en el universo de Marvel Comics. Es conocida por su habilidad para controlar el clima y sus habilidades de liderazgo.',
+        origen: 'Ororo Munroe descubrió sus poderes mutantes y fue entrenada por líderes tribales en África.',
+        poderesHabilidades: 'Manipulación del clima, vuelo, habilidades de combate cuerpo a cuerpo, liderazgo.',
+        debilidades: 'Vulnerable a ataques físicos y su control climático puede verse afectado por su estado emocional.',
+        estadisticas: 'Altura: 180 cm, Peso: 68 kg, Edad: 32 años',
+        curiosidades: 'Storm es una de las primeras superheroes negras en la industria de los cómics y ha sido una líder influyente en los X-Men.',
+        fotoPrincipal: 'storm.png'
+    },
+    {
+        id: 22,
+        nombre: 'Superman',
+        descripcion: 'Superman, cuyo nombre real es Kal-El o Clark Kent, es uno de los superhéroes más icónicos del universo de DC Comics. Es conocido por su fuerza sobrehumana, vuelo y su sentido de la justicia.',
+        origen: 'Kal-El fue enviado desde Krypton a la Tierra y fue criado como Clark Kent, descubriendo sus poderes a medida que crecía.',
+        poderesHabilidades: 'Fuerza sobrehumana, velocidad, vuelo, visión de rayos X, visión calorífica, aliento helado.',
+        debilidades: 'Vulnerable a la kryptonita y a la magia, así como a su debilidad psicológica por la humanidad.',
+        estadisticas: 'Altura: 188 cm, Peso: 101 kg, Edad: Desconocida (aparenta alrededor de 30 años)',
+        curiosidades: 'Superman es considerado uno de los héroes más poderosos de DC Comics y ha sido un símbolo de esperanza y valentía a lo largo de los años.',
+        fotoPrincipal: 'superman.png'
+    },
+    {
+        id: 23,
+        nombre: 'Thanos',
+        descripcion: 'Thanos es un supervillano y antihéroe en el universo de Marvel Comics. Es conocido por su obsesión con el poder y su deseo de obtener las Gemas del Infinito para lograr un poder cósmico inigualable.',
+        origen: 'Thanos es un descendiente de los Eternos y nació en la luna de Saturno, Titán.',
+        poderesHabilidades: 'Fuerza sobrehumana, durabilidad, longevidad, inteligencia a nivel genio.',
+        debilidades: 'A pesar de su inmensa fuerza, aún es vulnerable a ciertos ataques y estrategias.',
+        estadisticas: 'Altura: 249 cm, Peso: 680 kg, Edad: Indeterminada',
+        curiosidades: 'Thanos es uno de los villanos más temibles de Marvel y ha sido un antagonista principal en historias clave de los cómics y el Universo Cinematográfico de Marvel.',
+        fotoPrincipal: 'thanos.png'
+    },
+    {
+        id: 24,
+        nombre: 'Flash',
+        descripcion: 'Flash, cuyo nombre real es Barry Allen, es un superhéroe con habilidades de supervelocidad en el universo de DC Comics. Es conocido por su rapidez y su membresía en la Liga de la Justicia.',
+        origen: 'Barry Allen adquirió sus habilidades después de ser alcanzado por un rayo y bañado en productos químicos mientras trabajaba en su laboratorio.',
+        poderesHabilidades: 'Supervelocidad, reflexos sobrehumanos, regeneración acelerada.',
+        debilidades: 'Aunque es extremadamente rápido, aún puede ser afectado por ciertas fuerzas y ataques.',
+        estadisticas: 'Altura: 185 cm, Peso: 81 kg, Edad: 29 años',
+        curiosidades: 'Flash es uno de los superhéroes más rápidos en el universo de DC y ha sido destacado en cómics, series de televisión y películas.',
+        fotoPrincipal: 'flash.png'
+    },
+    {
+        id: 25,
+        nombre: 'Wonder Woman',
+        descripcion: 'Wonder Woman, cuyo nombre real es Diana Prince, es una superheroína y princesa amazona en el universo de DC Comics. Es conocida por su fuerza, sabiduría y su lazo mágico de la verdad.',
+        origen: 'Diana Prince es la princesa de las Amazonas y se convirtió en Wonder Woman para proteger el mundo del patriarcado y el mal.',
+        poderesHabilidades: 'Fuerza sobrehumana, velocidad, vuelo, invulnerabilidad, habilidades de combate.',
+        debilidades: 'A pesar de su fuerza, aún puede ser herida por fuerzas poderosas y ataques mágicos.',
+        estadisticas: 'Altura: 183 cm, Peso: 74 kg, Edad: 5000 años (aparenta alrededor de 30 años)',
+        curiosidades: 'Wonder Woman es una de las heroínas más icónicas de DC Comics y ha sido un símbolo de igualdad y justicia en su larga historia.',
+        fotoPrincipal: 'wonder-woman.png'
+    },
+    {
+        id: 26,
+        nombre: 'Venom',
+        descripcion: 'Venom es un supervillano y antihéroe en el universo de Marvel Comics. Es conocido por ser una criatura simbiótica que se fusiona con varios huéspedes, incluyendo a Eddie Brock, para crear una entidad poderosa.',
+        origen: 'Venom es un simbionte alienígena que llegó a la Tierra y se unió a Eddie Brock.',
+        poderesHabilidades: 'Fuerza sobrehumana, regeneración, capacidad de adherirse a superficies, habilidades simbióticas.',
+        debilidades: 'Vulnerable a ciertas sustancias sónicas y de sonido intenso.',
+        estadisticas: 'Altura: Variable (depende del huésped), Peso: Variable (depende del huésped), Edad: Indeterminada',
+        curiosidades: 'Venom ha sido tanto un villano formidable como un antihéroe en los cómics de Marvel y ha sido presentado en películas y otros medios.',
+        fotoPrincipal: 'venom.png'
+    }
+];

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+.peliculas1{
+    margin-bottom: 60px;
+    padding: 20px 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.recomendado{
+    margin: 0;
+    width: 100%;
+}
+
+.recomendado h2{
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+.recomendado .shape4{
+    width: 300px;
+    height: 8px;
+    background-color: #4770ff;
+    margin-left: 150px;
+}
+
+.recomendado .cards{
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 30px;
+    background: #0f0c29; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.recomendado .cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    transition: all 350ms ease;
+    z-index: 0;
+}
+
+.recomendado .cards .card img{
+    width: 300px;
+    height: auto;
+}
+
+.recomendado .cards .card h3{
+    color: aliceblue;
+    opacity: 0.5;
+}
+
+.recomendado .cards .card:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.recomendado .cards .card:hover h3{
+    opacity: 1;
+}

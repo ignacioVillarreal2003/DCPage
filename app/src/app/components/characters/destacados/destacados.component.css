@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+.all{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #faf9fa;
+}
+.container{
+    max-width: 1500px;
+    width: 90%;
+}
+
+.destacados{
+    margin: 0;
+    padding: 20px 40px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.destacados ul{
+    list-style: none;
+}
+
+.destacados h2{
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+.destacados .shape2{
+    width: 200px;
+    height: 6px;
+    background-color: #4770ff;
+}
+
+.destacados .cards{
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 600px);
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.destacados .card{
+    width: 550px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #fff;
+    transform: scale(1);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    opacity: 1;
+    transition: all 350ms ease;
+    box-shadow: 0 0 5px 0 rgba(39, 25, 77, 0.02), 0 3px 20px 0 rgba(112, 81, 239, 0.04), 0 10px 28px 0 rgba(39, 25, 77, 0.03);
+}
+
+.destacados .visual{
+    width: 550px;
+    height: 320px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destacados .card .info{
+    margin: 0;
+    padding: 20px;
+}
+
+.destacados .card .info h3{
+    color: #3a395e;
+    font-size: 25px;    
+}
+
+.destacados .card:hover .info h3{
+    color: rgb(112, 81, 239);
+}
+
+.destacados ul{
+    list-style: none;
+}
+
+.destacados a{
+    text-decoration: none;
+}
+
+.destacados .card .info p{
+    text-transform: lowercase;
+    font-size: 20px;
+    color: #4770ff;
+    line-height: 1.111em;
+    font-weight: 500;
+    letter-spacing: 0.02em;    
+}
+
+.destacados .col1 {
+    background-color: #f49e37;
+}
+
+.destacados .col2 {
+    background-color: #3ca2fc;
+}
+
+.destacados .col3 {
+    background-color: #f4e869;
+}
+
+.destacados .col4 {
+    background-color: #64ccc5;
+}
+
+.destacados .col5 {
+    background-color: #e55604;
+}
+
+.destacados .card:hover{
+    transform: scale(1.05);
+}
+
+.destacados .card img{
+    transform: scale(1);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    opacity: 1;
+    transition: all 350ms ease;
+}
+
+.destacados .card:hover .visual img {
+    transform: scale(1.06);
+}
+
+.destacados .card .parrafo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.destacados .card .parrafo p{
+    width: 400px;
+}
+
+
+.destacados .card .parrafo .shape3{
+    width: 38px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: #eff4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: rgb(112, 81, 239);
+    transition: all 350ms ease;
+}
+
+.destacados .card .parrafo .shape3 p{
+    padding-bottom: 4px;
+    width: 38px;
+    height: 38px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destacados .card:hover .parrafo .shape3 p{
+    color: rgb(247, 246, 255);
+}
+
+.destacados .card:hover .parrafo .shape3{
+    background-color: rgb(112, 81, 239);
+    transform: translate3d(10px, 0, 0);
+}
+

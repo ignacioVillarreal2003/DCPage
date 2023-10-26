@@ -1,0 +1,33 @@
+<div class="all">
+    <div class="container">
+        <div class="detalles-pelicula" *ngIf="pelicula">
+    <div class="principal">
+        <div class="imagenPrincipal">
+            <img src="./assets/peliculas/{{pelicula.fotoPrincipal}}" alt="">
+        </div>
+        <div class="basic-info">
+            <h2>{{ pelicula.nombre }}</h2>
+            <p>{{ pelicula.descripcion }}</p>
+            <p>{{ pelicula.year }} </p>
+        </div>
+    </div>
+    <div class="otrosDatos">
+        <div class="titulo">
+            <h3>Datos</h3>
+            <div class="shape5"></div>
+        </div>
+        <div class="datos">
+            <p>{{ pelicula.genero }}</p>
+            <p>{{ pelicula.direccion }}</p>
+            <p>{{ pelicula.reparto }}</p>
+            <p>{{ pelicula.duracion }}</p>
+            <p>{{ pelicula.calificacion }}</p>
+            <p>{{ pelicula.curiosidades }}</p>
+        </div>
+    </div>
+    <div class="atras">
+        <button class="goBack" type="button" (click)="goBack()">Atras</button>
+    </div>
+</div>
+</div>
+</div>
