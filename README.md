@@ -1,10 +1,24 @@
-# DCAngular
+# JSDCAngular
 
 Pagina web basica para probar angular y herramientas.
 
-## Instalacion
-- Clonar el Repositorio
-- Instalar Dependencias Frontend: cd app && npm install
-- Iniciar Aplicación Frontend: cd app && ng serve --open
+## Instalación y Uso
+1. Clona el repositorio:
+    ```
+    git clone https://github.com/ignacioVillarreal2003/DCAngular.git
+    ```
 
-La aplicación estará disponible en http://localhost:4200.
+2. Navega al directorio del proyecto:
+    ```
+    cd JSDCAngular
+    ```
+
+3. Instala las dependencias:
+    ```
+    npm install
+    ```
+
+4. Para abrir la aplicación:
+    ```
+    ng serve --open
+    ```
