@@ -1,0 +1,18 @@
+<div class="recomendado">
+    <h2>Que ver</h2>
+    <div class="shape4"></div>
+    <ul class="cards">
+        <li class="card" *ngFor="let peliculaDestacada of peliculasDestacadas">
+            <a href="" routerLink="/detallesPelicula/{{peliculaDestacada.id}}">
+                <img src="./assets/peliculas/{{peliculaDestacada.fotoPrincipal}}" alt="">
+                <h3>{{peliculaDestacada.nombre}}</h3>
+            </a>
+        </li>
+        <li class="card" *ngFor="let peliculaDestacada of peliculasDestacadas">
+            <a href="" routerLink="/detallesPelicula/{{peliculaDestacada.id}}">
+                <img src="./assets/peliculas/{{peliculaDestacada.fotoPrincipal}}" alt="">
+                <h3>{{peliculaDestacada.nombre}}</h3>
+            </a>
+        </li>
+    </ul>
+</div>

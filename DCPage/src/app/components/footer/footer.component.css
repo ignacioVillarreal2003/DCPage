@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+footer .content{
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .content .info{
+    max-width: 600px;
+    height: auto;
+    padding: 0 20px;
+}
+
+footer .content .info p{
+    font-family: 'Plus Jakarta Display', sans-serif;
+    color: #6e6d8f;
+    font-size: 18px;
+    line-height: 1.778em;
+    text-transform: lowercase;
+    margin-bottom: 50px;
+}
+
+footer .content .info h3{
+    color: #3a395e;
+    font-size: 28px;
+    line-height: 1.286em;
+    font-weight: 700;
+}
+
+footer .content .info .contact{
+    padding: 28px 52px;
+    border-radius: 20px;
+    box-shadow: 0 3px 17px 0 rgba(112, 81, 239, 0.27);
+    color: #fff;
+    font-size: 20px;
+    line-height: 1em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+    transform: scale(1);
+    transition: all 350ms ease;
+    width: 120px;
+    cursor: pointer;
+}
+
+footer .content .info .contact:hover{
+    box-shadow: 0 7px 25px 0 rgba(112, 81, 239, 0.27);
+    transform: scale(1.1);
+    color: #fff;
+}
+
+footer .content .redes{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+footer .content .redes img{
+    width: 70px;
+    height: auto;
+    transform: scale(1);
+    transition: all 350ms ease;
+}
+
+footer .content .redes img:hover{
+    transform: scale(1.1);
+}
+
+footer .copy{
+    cursor: pointer;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+@media (max-width: 750px) {
+    footer .content .redes img{
+        width: 50px;
+    }
+}

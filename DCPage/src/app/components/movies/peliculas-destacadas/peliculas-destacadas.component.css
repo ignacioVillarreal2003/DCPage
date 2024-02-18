@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+.recomendado {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 60px;
+    padding: 20px 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow: hidden;
+}
+
+.recomendado h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+.recomendado .shape4 {
+    width: 300px;
+    height: 8px;
+    background-color: #4770ff;
+    margin-left: 150px;
+}
+
+.recomendado .cards {
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 30px;
+    background: #0f0c29;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.recomendado .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    transition: all 350ms ease;
+    z-index: 0;
+    animation: scrollAnimation 60s linear infinite;
+    width: 300px;
+    height: 500px;
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(70%);
+    }
+
+    50% {
+        transform: translateX(-278%);
+    }
+
+    100% {
+        transform: translateX(70%);
+    }
+}
+
+.recomendado .cards .card a {
+    text-decoration: none;
+}
+
+.recomendado .cards .card img {
+    width: 300px;
+    height: 450px;
+}
+
+.recomendado .cards .card h3 {
+    color: aliceblue;
+    opacity: 0.5;
+}
+
+.recomendado .cards .card:hover h3 {
+    opacity: 1;
+}
+
+@media (max-width: 750px) {
+    .recomendado h2 {
+        margin-left: 10px;
+        font-size: 55px;
+    }
+
+    .recomendado .shape4 {
+        margin-left: 10px;
+        width: 250px;
+    }
+}
+

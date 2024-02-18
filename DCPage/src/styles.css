@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+    background-color: #faf9fa;
+}
+
+body{
+    margin: 0;
+}
+
+.all{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #faf9fa;
+}
+
+.container{
+    max-width: 1500px;
+    width: 85%;
+}
+
+@media (max-width: 760px) {
+    
+    .container{
+        width: 90%;
+    }
+}

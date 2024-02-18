@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+.detalles-pelicula {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.detalles-pelicula .principal {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 40px;
+}
+
+.detalles-pelicula .principal .imagenPrincipal {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.detalles-pelicula .principal .imagenPrincipal img {
+    width: 350px;
+    height: auto;
+    transition: all 350ms ease;
+    -webkit-box-shadow: 20px 26px 46px -6px rgba(99, 99, 99, 1);
+    -moz-box-shadow: 20px 26px 46px -6px rgba(99, 99, 99, 1);
+    box-shadow: 20px 26px 46px -6px rgba(99, 99, 99, 1);
+}
+
+.detalles-pelicula .principal .basic-info {
+    max-width: 700px;
+}
+
+.detalles-pelicula .principal .basic-info h2 {
+    font-size: 60px;
+    color: #3a395e;
+}
+
+.detalles-pelicula .principal .basic-info p {
+    font-size: 22px;
+    color: #6e6d8f;
+    font-family: 'Basier Circle', sans-serif;
+}
+
+.detalles-pelicula .otrosDatos {}
+
+.detalles-pelicula .otrosDatos .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.detalles-pelicula .otrosDatos h3 {
+    font-size: 50px;
+    color: #3a395e;
+    margin: 0;
+}
+
+.detalles-pelicula .otrosDatos .shape5 {
+    width: 200px;
+    height: 6px;
+    background-color: #3ca2fc;
+}
+
+.detalles-pelicula .otrosDatos .datos {
+    margin: 50px 100px;
+}
+
+.detalles-pelicula .otrosDatos .datos p {
+    transform: scale(0.98);
+    font-size: 20px;
+    opacity: 0.6;
+    transition: all ease 350ms;
+}
+
+.detalles-pelicula .otrosDatos .datos p:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.detalles-pelicula .atras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .detalles-pelicula .principal{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .detalles-pelicula .principal .imagenPrincipal{
+        margin-right: 0;
+    }
+
+    .detalles-pelicula .otrosDatos .datos {
+        margin: 50px 40px;
+    }
+}
+
+
+
+

@@ -1,0 +1,21 @@
+<section class="personajes">
+    <h2>Personajes</h2>
+    <ul class="cards">
+        <li class="card" *ngFor="let personaje of personajes">
+            <div class="visual" [class]="randomColor()">
+                <img src="./assets/personajes/{{personaje.fotoPrincipal}}" alt="" />
+            </div>
+            <div class="info">
+                <h3>{{personaje.nombre}}</h3>
+                <p>
+                    {{personaje.descripcion}}
+                </p>
+                <div class="btnMore">
+                    <button class="more" routerLink="/detalles/{{personaje.id}}">
+                        mas
+                    </button>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>

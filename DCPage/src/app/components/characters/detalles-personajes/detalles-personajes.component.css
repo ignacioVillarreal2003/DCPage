@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+.cartaPersonaje {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cartaPersonaje .principal {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.cartaPersonaje .principal .imagenPrincipal {
+    min-width: 400px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+    transition: all 350ms ease;
+    transform: scale(1);
+}
+
+.cartaPersonaje .principal .imagenPrincipal img {
+    width: 300px;
+    height: 300px;
+    height: auto;
+    transition: all 350ms ease;
+    transform: scale(1);
+}
+
+.cartaPersonaje .principal:hover .imagenPrincipal {
+    border-radius: 50%;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-box-shadow: 20px 26px 46px -6px rgba(99, 99, 99, 1);
+    -moz-box-shadow: 20px 26px 46px -6px rgba(99, 99, 99, 1);
+    box-shadow: 20px 26px 46px -6px rgba(99, 99, 99, 1);
+    transform: scale(0.9);
+}
+
+.cartaPersonaje .principal .basic-info {
+    max-width: 600px;
+}
+
+.cartaPersonaje .principal .basic-info h2 {
+    font-size: 60px;
+    color: #3a395e;
+}
+
+.cartaPersonaje .principal .basic-info p {
+    font-size: 22px;
+    color: #6e6d8f;
+    font-family: 'Basier Circle', sans-serif;
+}
+
+.cartaPersonaje .otrosDatos {}
+
+.cartaPersonaje .otrosDatos .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cartaPersonaje .otrosDatos h3 {
+    font-size: 50px;
+    color: #3a395e;
+    margin: 0;
+}
+
+.cartaPersonaje .otrosDatos .shape5 {
+    width: 200px;
+    height: 6px;
+    background-color: #3ca2fc;
+}
+
+.cartaPersonaje .otrosDatos .datos {
+    margin: 50px 100px;
+}
+
+.cartaPersonaje .otrosDatos .datos p {
+    transform: scale(0.98);
+    font-size: 20px;
+    opacity: 0.6;
+    transition: all ease 350ms;
+}
+
+.cartaPersonaje .otrosDatos .datos p:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.cartaPersonaje .col1 {
+    background-color: #f49e37;
+}
+
+.cartaPersonaje .col2 {
+    background-color: #3ca2fc;
+}
+
+.cartaPersonaje .col3 {
+    background-color: #f4e869;
+}
+
+.cartaPersonaje .col4 {
+    background-color: #64ccc5;
+}
+
+.cartaPersonaje .col5 {
+    background-color: #e55604;
+}
+
+@media (max-width: 1200px) {
+    .cartaPersonaje .principal {
+        flex-direction: column;
+    }
+
+    .cartaPersonaje .principal .imagenPrincipal {
+        margin-right: 0px;
+    }
+}
+@media (max-width: 750px) {
+    .cartaPersonaje .otrosDatos h3 {
+        font-size: 40px;
+    }
+    
+    .cartaPersonaje .otrosDatos .shape5 {
+        width: 180px;
+    }
+
+    .cartaPersonaje .otrosDatos .datos {
+        margin: 50px 20px;
+    }
+    
+    .cartaPersonaje .otrosDatos .datos p {
+        font-size: 18px;
+    }
+
+    .cartaPersonaje .principal .basic-info h2 {
+        font-size: 45px;
+    }
+    
+    .cartaPersonaje .principal .basic-info p {
+        font-size: 20px;
+    }
+
+    .cartaPersonaje .principal {
+        justify-content: center;
+    }
+
+    .cartaPersonaje .principal .imagenPrincipal {
+        min-width: 300px;
+        min-height: 300px;
+    }
+    
+    .cartaPersonaje .principal .imagenPrincipal img {
+        width: 200px;
+        height: 200px;
+    }
+}

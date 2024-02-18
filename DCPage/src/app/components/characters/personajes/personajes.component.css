@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+
+.personajes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.personajes h2 {
+    font-size: 60px;
+    border-bottom: 6px solid #4770ff;
+    padding: 5px 30px;
+}
+
+.personajes .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.personajes .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    transform: scale(1);
+    transition: all 350ms ease-out;
+    max-width: 1000px;
+    min-width: 380px;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    height: 320px;
+}
+
+.personajes .card .visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    min-width: 180px;
+    height: 320px;
+}
+
+.personajes .card .visual img {
+    max-width: 650px;
+    min-width: 170px;
+    transform: scale(1);
+    transition: all 350ms ease-out;
+}
+
+.personajes .card .info {
+    max-width: 500px;
+    min-width: 200px;
+    margin-left: 30px;
+}
+
+.personajes .card .info h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #3a395e;
+}
+
+.personajes .card .info p {
+    font-size: 18px;
+}
+
+.personajes .col1 {
+    background-color: #f49e37;
+}
+
+.personajes .col2 {
+    background-color: #3ca2fc;
+}
+
+.personajes .col3 {
+    background-color: #f4e869;
+}
+
+.personajes .col4 {
+    background-color: #64ccc5;
+}
+
+.personajes .col5 {
+    background-color: #e55604;
+}
+
+.personajes .card:hover .visual img {
+    transform: scale(1.1);
+}
+
+.personajes .card:hover {
+    transform: scale(1.05);
+}
+
+.btnMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.more {
+    width: 120px;
+    height: 50px;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.more:hover {
+    background: #315cfd;
+    color: white;
+    font-size: 1.2em;
+}
+
+@media (max-width: 750px) {
+    .personajes h2 {
+        font-size: 40px;
+    }
+
+    .personajes .card .info h3 {
+        font-size: 22px;
+    }
+
+    .personajes .card .info p {
+        font-size: 14px;
+    }
+
+    .personajes .card:hover .visual img {
+        transform: scale(1);
+    }
+
+    .personajes .card:hover {
+        transform: scale(1);
+    }
+
+    .personajes .card {
+        scale: 0.8;
+    }
+    
+    .more {
+        width: 100px;
+        height: 40px;
+        font-size: 0.9em;
+    }
+    
+    .more:hover {
+        font-size: 1.1em;
+    }
+}
